@@ -1,10 +1,21 @@
 # Pi Agent Portable
 
-Instalacion automatizada de Pi Agent con runtimes portable.
+> **Para USB, equipos restringidos, y despliegue rápido.**
+
+Instalacion automatizada de Pi Agent con runtimes portatiles. Todo vive en una carpeta: no requiere instalacion, no toca el registro, no necesita permisos de administrador.
+
+## Ideal para
+
+- **USB portability**: Copia la carpeta a un USB y usa Pi en cualquier PC con Windows.
+- **Equipos restringidos**: Sin permisos de instalacion, sin registro, sin cambios al sistema.
+- **Sin permisos de administrador**: Todo el proceso de instalacion funciona sin privilegios elevados. Copia, corre, listo.
+- **Despliegue rapido**: `setup.bat` descarga e instala todo automaticamente.
+- **Aislamiento**: Configuracion y sesion viven en `data/` (via `PI_CODING_AGENT_DIR`). Cero contacto con `~/.pi/agent`.
 
 ## Quick Start
 
 ```cmd
+:: En cualquier PC con Windows (o desde USB)
 git clone https://github.com/davo084/pi-agent-portable.git
 cd pi-agent-portable
 setup.bat
@@ -24,10 +35,15 @@ pi-agent-portable\
 └── data\          # Configuracion y sesion de Pi
 ```
 
-## Requisitos
+## Caracteristicas
 
-- Windows 10/11
-- Conexion a internet (para descargar runtimes)
+| Caracteristica | Detalle |
+|---|---|
+| **Autosuficiente** | Todo en una carpeta. Sin instalacion. |
+| **Portatil** | Copia a USB, usa en cualquier Windows 10/11. |
+| **Sin permisos** | No requiere admin. No toca registro. |
+| **Aislado** | Runtimes propios. No afecta ni depende del sistema. |
+| **Rutas relativas** | Todo funciona desde cualquier unidad (C:, D:, USB). |
 
 ## Runtimes incluidos
 
@@ -35,6 +51,11 @@ pi-agent-portable\
 - Python 3.11.9
 - Git 2.45.1
 - Pi Agent 0.99.2
+
+## Requisitos
+
+- Windows 10/11
+- Conexion a internet (solo para `setup.bat`, una vez)
 
 ## Para la IA
 
