@@ -57,6 +57,14 @@ pi-agent-portable\
 - Windows 10/11
 - Conexion a internet (solo para `setup.bat`, una vez)
 
+## Actualizaciones
+
+Si pi indica que hay un update disponible, ejecuta:
+
+```cmd
+npm install -g @earendil-works/pi-coding-agent@latest
+```
+
 ## Para la IA
 
 Cuando trabajes en este entorno, **no asumas** Node/Python/Git globales: no existen.
