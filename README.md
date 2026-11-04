@@ -2,7 +2,9 @@
 
 > **Para USB, equipos restringidos, y despliegue rápido.**
 
-Instalacion automatizada de Pi Agent con runtimes portatiles. Todo vive en una carpeta: no requiere instalacion, no toca el registro, no necesita permisos de administrador.
+**Pi Agent** es el agente de coding AI de la familia Pi — una interfaz ligera y rápida para desarrolladores, accesible desde cualquier entorno.  
+
+Este repositorio es **Pi Agent Portable**: una version autocontenida y portatil que funciona sin instalacion, sin permisos de administrador, y sin tocar el registro de Windows. Todo vive en una sola carpeta.
 
 ## Ideal para
 
