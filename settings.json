@@ -1,0 +1,10 @@
+{
+    "shellPath": "bash.cmd",
+    "runtimes": {
+        "node": "runtimes/node",
+        "python": "runtimes/python",
+        "uv": "runtimes/uv",
+        "git": "runtimes/git-portable"
+    },
+    "note": "Todas las rutas relativas a la raiz de este entorno. Autosuficiente."
+}
