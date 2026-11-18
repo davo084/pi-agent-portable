@@ -1,0 +1,8 @@
+runtimes/
+app/
+data/
+.tmp/
+.npm-cache/
+*.log
+.DS_Store
+Thumbs.db
